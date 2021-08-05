@@ -6,7 +6,7 @@ public class Samurai extends Human{
 	
 	private static int nums = 0;
 	
-	Samurai(){
+	public Samurai(){
 		setHealth(200);
 		nums++;
 	}
@@ -17,7 +17,7 @@ public class Samurai extends Human{
 	void meditate() {
 		setHealth(getHealth()+50);
 	}
-	static int howMany() {
+	public static int howMany() {
 		return nums;
 	}
 }

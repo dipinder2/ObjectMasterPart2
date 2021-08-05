@@ -5,7 +5,7 @@ import com.dipinder.human.Human;
 public class Wizard extends Human {
 	
 	
-	Wizard(){
+	public Wizard(){
 		setHealth(50);
 		setIntelligence(8);
 	}

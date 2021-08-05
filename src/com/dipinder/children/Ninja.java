@@ -14,5 +14,8 @@ public class Ninja extends Human{
 		this.setStealth(this.getStealth());
 
 	}
+	void runAway() {
+		setHealth(getHealth()-10);
+	}
 }
 
